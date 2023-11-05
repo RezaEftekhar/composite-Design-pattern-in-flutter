@@ -34,3 +34,11 @@ class Element extends StatelessWidget implements IElement {
   @override
   Widget build(BuildContext context) => display(context);
 }
+
+
+class AudioElement extends Element {
+  const AudioElement({
+    required String name,
+    required int size,
+  }) : super(name: name, size: size, icon: Icons.music_note);
+}
