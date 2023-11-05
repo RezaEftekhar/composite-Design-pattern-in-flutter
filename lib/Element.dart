@@ -42,3 +42,10 @@ class AudioElement extends Element {
     required int size,
   }) : super(name: name, size: size, icon: Icons.music_note);
 }
+
+class ImageElement extends Element {
+  const ImageElement({
+    required String name,
+    required int size,
+  }) : super(name: name, size: size, icon: Icons.image);
+}
