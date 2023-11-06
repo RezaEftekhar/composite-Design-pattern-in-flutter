@@ -57,3 +57,9 @@ class TextElement extends Element {
   }) : super(name: name, size: size, icon: Icons.description);
 }
 
+class VideoElement extends Element {
+  const VideoElement({
+    required String name,
+    required int size,
+  }) : super(name: name, size: size, icon: Icons.movie);
+}
