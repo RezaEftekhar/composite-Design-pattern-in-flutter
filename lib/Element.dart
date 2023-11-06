@@ -49,3 +49,11 @@ class ImageElement extends Element {
     required int size,
   }) : super(name: name, size: size, icon: Icons.image);
 }
+
+class TextElement extends Element {
+  const TextElement({
+    required String name,
+    required int size,
+  }) : super(name: name, size: size, icon: Icons.description);
+}
+
