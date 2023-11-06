@@ -1,5 +1,5 @@
 import 'package:composite_example/IElement.dart';
-import 'package:composite_example/sizeConverter.dart';
+import 'package:composite_example/element_size_converter.dart';
 import 'package:flutter/material.dart';
 
 class Element extends StatelessWidget implements IElement {
